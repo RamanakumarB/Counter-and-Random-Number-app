@@ -1,0 +1,40 @@
+.clr{
+    background-color: blue;
+    color: red;
+}
+/* Random number and  counter number (app) */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    gap: 20px; 
+    background-color: #00FFFF;
+  }
+  
+  .random-number-container,
+  .counter-container {
+    width: 100%;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .random-number-container {
+    background-color: blue;
+  }
+  
+  .counter-container {
+    background-color: purple;
+  }
+  .button{
+    border-radius: 10px;
+    background-color:#ADFF2F ;
+  }
+
+  
